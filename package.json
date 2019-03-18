@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo test for Sitekit",
+  "main": "demo.js",
+  "scripts": {
+    "test": "node sitekit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupert500/demo.git"
+  },
+  "keywords": [
+    "sitekit"
+  ],
+  "author": "Rupert Finn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupert500/demo/issues"
+  },
+  "homepage": "https://github.com/rupert500/demo#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}

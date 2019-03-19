@@ -26,7 +26,7 @@ function verify(searchText,bodyText)
 		//Search the contact section
 		var element = await driver.findElement(By.id('contact'));
 		await element.getText().then(function(text) {
-			verify("Edinburgh",text);
+			verify("Oxford",text);
 			verify("London",text);
 			verify("0845 299 0900",text);
 		});
